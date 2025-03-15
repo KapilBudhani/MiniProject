@@ -12,3 +12,8 @@ import random
 import pyautogui
 import gradio as gr
 from transformers import pipeline
+import threading
+import logging
+from datetime import datetime
+import getpass
+from email.mime.text import MIMEText
